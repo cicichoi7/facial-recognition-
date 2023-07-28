@@ -13,7 +13,7 @@ The algorithim is used by VSCODE and downloaded images supported by Jetson nano.
 2. Transfer your dataset to your Jetson Nano using filezilla
 3. Connect to your Jetson Nano to VSCODE
 4. Sign into VSCODE with your Inet address and sign in with nvidia password
-5. Open the terminal in Nvidia
+5. Open the terminal in VSCODE
 6. Make sure you have the things you need installed like the Resnet18.onnx for example. Also make sure you have the labels.txt file.
 7. Ensure you are not in the docker. If so, change directories into jetson-inference/python/training/classification using cd jetson-inference/python/training/classification.
 8. To check if you have the resnet18.onnx file, use ls models/human_emotions/
