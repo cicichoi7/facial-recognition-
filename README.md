@@ -2,7 +2,6 @@
 
 This model is used to detect people's emotions based on their facial expressions. It is trained on an imagenet Resnet-18 model using transer learning which is a technique for training a model on a new dataset which is faster than training a network for scratch. The idea is that the model can help people who have autism, aspergers, prosopagnosia, or any other conditions that make it harder for people to read facial expressions and emotions. 
 
-![A computer analyzes a face.](https://imgur.com/HeyVfsW)
 
 ## The Algorithm
 
