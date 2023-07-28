@@ -16,6 +16,6 @@ The algorithim is used by VSCODE and downloaded images supported by Jetson nano.
 7. Ensure you are not in the docker. If so, change directories into jetson-inference/python/training/classification using cd jetson-inference/python/training/classification.
 8. To check if you have the resnet18.onnx file, use ls models/human_emotions/
 9. Set the NET and DATASET variables by using NET=models/human_emotions and DATASET=data/human_emotions
-10. To run the previous command I am going to use an angry image for this example. I need to pick an image to use and then run this command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/anger/anger1.png output1.jpg
+10. To run the previous command I am going to use an angry image from the test folder for this example. I need to pick an image to use and then run this command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/anger/anger1.png output1.jpg
 11. On the side bar in VSCODE, find your output image under classification, and then you have your image classified! 
 [View a video explanation here](video link)
