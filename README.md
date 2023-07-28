@@ -2,6 +2,14 @@
 
 This model is used to detect people's emotions based on their facial expressions. It is trained on an imagenet Resnet-18 model using transer learning which is a technique for training a model on a new dataset which is faster than training a network for scratch. The idea is that the model can help people who have autism, aspergers, prosopagnosia, or any other conditions that make it harder for people to read facial expressions and emotions. 
 
+![image](https://github.com/cicichoi7/facial-recognition-/assets/140643991/3df79d3e-a95d-48db-a017-473c9be635f2)
+
+![image](https://github.com/cicichoi7/facial-recognition-/assets/140643991/c9f01e09-762b-49e2-8dd8-81eb70a0051c)
+
+![image](https://github.com/cicichoi7/facial-recognition-/assets/140643991/3919885a-4f64-4fc9-93a9-38cbceb65d86)
+
+![image](https://github.com/cicichoi7/facial-recognition-/assets/140643991/6b8fde61-750c-4ff9-92e4-add8a7bae3c4)
+
 
 ## The Algorithm
 
